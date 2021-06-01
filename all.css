@@ -5,8 +5,10 @@ img{
 *{
    box-sizing: border-box;
 }
-.container{
-   max-width: 1155px;
+@media (min-width:1130px){
+   .container{
+      max-width: 1155px;
+   }
 }
 .mytitle{
    letter-spacing: 3px;
