@@ -34,3 +34,15 @@ p{
    letter-spacing: 1.92px;
    font-size: 24px;
 }
+
+@media (min-width: 767px){
+   .donateSection{
+      margin-top: 0px;
+   }
+}
+
+@media (min-width:992px){
+   .donateSection{
+      margin-top: -200px !important;
+   }
+}
