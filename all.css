@@ -46,3 +46,6 @@ p{
       margin-top: -200px !important;
    }
 }
+.modal-content{
+   border: none;
+}
