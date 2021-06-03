@@ -1,0 +1,60 @@
+@import 'bootstrap5/bootstrap.scss';
+img{
+   max-width: 100%;
+   height: auto;
+}
+*{
+   box-sizing: border-box;
+}
+@media (min-width:1130px){
+   .container{
+      max-width: 1155px;
+   }
+}
+.mytitle{
+   letter-spacing: 3px;
+}
+p{
+   margin-bottom: 0;
+}
+.fz-14{
+   font-size: 14px;
+}
+.myrounded-32{
+   border-radius: 32px;
+}
+.mylh2{
+   letter-spacing: 1.92px;
+   line-height: 36px;
+}
+.myarticle{
+   line-height: 32px;
+}
+.secondTitle{
+   color: #494846;
+   letter-spacing: 1.92px;
+   font-size: 24px;
+}
+
+@media (min-width: 767px){
+   .donateSection{
+      margin-top: 0px;
+   }
+}
+
+@media (min-width:992px){
+   .donateSection{
+      margin-top: -200px !important;
+   }
+}
+.modal-content{
+   border: none;
+}
+.btn-warning:hover{
+   background-color: #FF785E ;
+   color:white;
+}
+.nav-item > .active{
+   border-bottom: 2px solid #FFDF65 !important;
+   color:black !important;
+}
