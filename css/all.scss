@@ -36,25 +36,34 @@ p{
    font-size: 24px;
 }
 
-@media (min-width: 767px){
-   .donateSection{
-      margin-top: 0px;
-   }
-}
+// @media (min-width: 767px){
+//    .donateSection{
+//       margin-top: 0px;
+//    }
+// }
 
-@media (min-width:992px){
-   .donateSection{
-      margin-top: -200px !important;
-   }
-}
+// @media (min-width:992px){
+//    .donateSection{
+//       margin-top: -200px !important;
+//    }
+// }
 .modal-content{
    border: none;
 }
 .btn-warning:hover{
    background-color: #FF785E ;
    color:white;
+   border-color:#FF785E ;
 }
 .nav-item > .active{
-   border-bottom: 2px solid #FFDF65 !important;
+   border-bottom: 2px solid #b8b7b3 !important;
    color:black !important;
+}
+.shadow-qa{
+   box-shadow: 0 0 10px 0 rgba(73,72,70,0.15);
+}
+//  有點問題
+.accordion-button:focus{
+   outline: none;
+   border: none;
 }
